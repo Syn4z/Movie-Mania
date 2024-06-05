@@ -15,7 +15,7 @@ To run this project locally, follow these steps:
 3. Install the dependencies by running the command `npm install`.
 4. Start the development server with `npm run dev`.
 
-# Server Setup
+## Server Setup
 
 The server for this project is written in Python and uses Flask. Follow these steps to set it up:
 
@@ -27,7 +27,7 @@ The server for this project is written in Python and uses Flask. Follow these st
 
 The server will start on `localhost:5000` by default.
 
-## API Endpoints
+### API Endpoints
 
 The server provides several API endpoints for interacting with the movie data:
 
@@ -35,7 +35,7 @@ The server provides several API endpoints for interacting with the movie data:
 
 Please refer to the [Swagger documentation](src/static/swagger.json) for more information about the API endpoints.
 
-## Database
+### Database
 
 The server uses a SQLite database for storing movie data. The database is set up in [src/database/db.py](src/database/db.py) and [src/database/movie.py](src/database/movie.py).
 
